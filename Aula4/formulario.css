@@ -1,0 +1,52 @@
+h1 {
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+
+div {
+    font-family: "Open Sans"
+}
+
+label {
+    font-size: 14px;
+}
+
+input, select, textarea {
+    font-size: 19px;
+    width: 285px;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: auto;
+}
+
+textarea {
+    height: 101px;
+}
+
+.input-group {
+    font-weight: bold;
+}
+
+.item {
+    font-weight: normal;
+}
+
+button {
+    font-size: 14px;
+    border-radius: 100px;
+    width: 165px;
+    height: 44px;
+}
+
+.cancelar {
+    border: solid 2.5px #4eb6ff;
+    color: #4eb6ff;
+    background-color: white;
+}
+
+.salvar {
+    border: 0px;
+    color: white;
+    background-color: #13cb65;
+}

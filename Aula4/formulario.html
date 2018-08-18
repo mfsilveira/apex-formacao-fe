@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="formulario.css" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <h1>Cadastro de Clientes</h1>
+        <div class="input-group">
+            <label>Nome</label>
+            <br>
+            <input type="text" placeholder="Primeiro nome">
+        </div>
+        <div class="input-group">
+            <label>Sobrenome</label>
+            <br>
+            <input type="text" placeholder="Sobrenome">
+        </div>
+        <div class="input-group">
+            <label>E-mail</label>
+            <br>
+            <input type="email" placeholder="eu@google.com">
+        </div>
+        <div class="input-group">
+            <label>Confirmação de E-mail</label>
+            <br>
+            <input type="email" placeholder="eu@google.com">
+        </div>
+        <div class="input-group">
+            <label>Telefone</label>
+            <br>
+            <input type="tel" placeholder="(99) 99999-9999">
+        </div>
+        <div class="input-group">
+            <label>Data de Nascimento</label>
+            <br>
+            <input type="date">
+        </div>
+        <div class="input-group">
+            <label>Estado</label>
+            <br>
+            <select>
+                <option id="SC">Santa Catarina</option>
+                <option id="PR">Paraná</option>
+                <option id="SP">Sâo Paulo</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label>Observação</label>
+            <br>
+            <textarea placeholder="Digite sua observação aqui"></textarea>
+        </div>
+        <div class="input-group">
+            <label>Sexo</label>
+            <br>
+            <label class="item">
+                <input type="radio" name="sexo">Masculino</label>
+            <label class="item">
+                <input type="radio" name="sexo">Feminino</label>
+        </div>
+        <div class="input-group">
+            <label>Módulos</label>
+            <br>
+            <label class="item">
+                <input type="checkbox">RH</label>
+            <label class="item">
+                <input type="checkbox">Fiscal</label>
+            <label class="item">
+                <input type="checkbox">Financeiro</label>
+        </div>
+        <div class="input-group">
+            <button class="cancelar">Cancelar</button>
+            <button class="salvar">Salvar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

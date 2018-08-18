@@ -11,76 +11,69 @@
 </head>
 
 <body>
-    <form>
+    <div class="content">
         <h1>Cadastro de Clientes</h1>
-        <div class="input-group">
-            <label>Nome</label>
-            <br>
-            <input type="text" placeholder="Primeiro nome">
-        </div>
-        <div class="input-group">
-            <label>Sobrenome</label>
-            <br>
-            <input type="text" placeholder="Sobrenome">
-        </div>
-        <div class="input-group">
-            <label>E-mail</label>
-            <br>
-            <input type="email" placeholder="eu@google.com">
-        </div>
-        <div class="input-group">
-            <label>Confirmação de E-mail</label>
-            <br>
-            <input type="email" placeholder="eu@google.com">
-        </div>
-        <div class="input-group">
-            <label>Telefone</label>
-            <br>
-            <input type="tel" placeholder="(99) 99999-9999">
-        </div>
-        <div class="input-group">
-            <label>Data de Nascimento</label>
-            <br>
-            <input type="date">
-        </div>
-        <div class="input-group">
-            <label>Estado</label>
-            <br>
-            <select>
-                <option id="SC">Santa Catarina</option>
-                <option id="PR">Paraná</option>
-                <option id="SP">Sâo Paulo</option>
-            </select>
-        </div>
-        <div class="input-group">
-            <label>Observação</label>
-            <br>
-            <textarea placeholder="Digite sua observação aqui"></textarea>
-        </div>
-        <div class="input-group">
-            <label>Sexo</label>
-            <br>
-            <label class="item">
-                <input type="radio" name="sexo">Masculino</label>
-            <label class="item">
-                <input type="radio" name="sexo">Feminino</label>
-        </div>
-        <div class="input-group">
-            <label>Módulos</label>
-            <br>
-            <label class="item">
-                <input type="checkbox">RH</label>
-            <label class="item">
-                <input type="checkbox">Fiscal</label>
-            <label class="item">
-                <input type="checkbox">Financeiro</label>
-        </div>
-        <div class="input-group">
-            <button class="cancelar">Cancelar</button>
-            <button class="salvar">Salvar</button>
-        </div>
 
-    </form>
+        <form>
+            <div class="input-group col-45">
+                <label>Nome</label>
+                <input type="text" placeholder="Primeiro nome">
+            </div>
+            <div class="input-group col-45">
+                <label>Sobrenome</label>
+                <input type="text" placeholder="Sobrenome">
+            </div>
+            <div class="input-group col-45">
+                <label>E-mail</label>
+                <input type="email" placeholder="eu@google.com">
+            </div>
+            <div class="input-group col-45">
+                <label>Confirmação de E-mail</label>
+                <input type="email" placeholder="eu@google.com">
+            </div>
+            <div class="input-group col-45">
+                <label>Telefone</label>
+                <input type="tel" placeholder="(99) 99999-9999">
+            </div>
+            <div class="input-group col-45">
+                <label>Data de Nascimento</label>
+                <input type="date">
+            </div>
+            <div class="input-group col-45">
+                <label>Estado</label>
+                <select>
+                    <option id="SC">Santa Catarina</option>
+                    <option id="PR">Paraná</option>
+                    <option id="SP">Sâo Paulo</option>
+                </select>
+            </div>
+            <div class="input-group col-45">
+                <label>Observação</label>
+                <textarea placeholder="Digite sua observação aqui"></textarea>
+            </div>
+            <div class="input-group col-45">
+                <label>Sexo</label>
+                <span class="item">
+                    <input type="radio" name="sexo">Masculino</span>
+                <span class="item">
+                    <input type="radio" name="sexo">Feminino</span>
+            </div>
+            <div class="input-group col-45">
+                <label>Módulos</label>
+                <span class="item">
+                    <input type="checkbox">RH</span>
+                <span class="item">
+                    <input type="checkbox">Fiscal</span>
+                <span class="item">
+                    <input type="checkbox">Financeiro</span>
+            </div>
+            <div class="buttons-deck">
+                <button class="cancelar">Cancelar</button>
+                <button class="salvar">Salvar</button>
+            </div>
+
+        </form>
+    </div>
 </body>
 
 </html>

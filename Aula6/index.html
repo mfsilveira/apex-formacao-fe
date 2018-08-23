@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Veículos</h1>
+    <div class="content">
+        <form>
+            <h4 class="col-100">Dados do Veículo</h4>
+            <div class="input-group col-33">
+                <label>Placa</label>
+                <input type="text" class="campo-curto" data-inputmask="'mask' : 'AAA-9999'" minlength="8" maxlength="8" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Renavam</label>
+                <input type="text" class="campo-comprido" maxlength="10" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Cidade</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Estado</label>
+                <select class="campo-comprido">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+            </div>
+            <div class="input-group col-33">
+                <label>Marca</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Modelo</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Ano Modelo</label>
+                <input type="number" class="campo-curto" min="1900" max="2018" minlength="4" maxlength="4" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Ano Fabricação</label>
+                <input type="number" class="campo-curto" min="1900" max="2018" minlength="4" maxlength="4" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Eixos</label>
+                <input type="number" class="campo-curto" min="1" max="10" minlength="1" maxlength="2" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Cilindradas</label>
+                <input type="number" class="campo-curto" minlength="4" maxlength="4" required>
+            </div>
+            <div class="input-group col-33">
+                <label>Tipo</label>
+                <select class="campo-comprido">
+                    <option value="1">Moto</option>
+                    <option value="2">Leve</option>
+                    <option value="3">Utilitário</option>
+                    <option value="4">Pesado</option>
+                </select>
+            </div>
+            <h4 class="col-100">Dados do Proprietário</h4>
+            <div class="input-group col-50">
+                <label>Nome</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-50">
+                <label>Sobrenome</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-50">
+                <label>CPF</label>
+                <input type="number" class="campo-comprido" minlength="11" maxlength="11" required>
+            </div>
+            <div class="input-group col-50">
+                <label>RG</label>
+                <input type="text" class="campo-comprido" required>
+            </div>
+            <h4 class="col-100">Endereço</h4>
+            <div class="input-group col-50">
+                <label>Logradouro</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-50">
+                <label>Nº</label>
+                <input type="number" class="campo-curto" maxlength="5" required>
+            </div>
+            <div class="input-group col-50">
+                <label>Bairro</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-50">
+                <label>Cidade</label>
+                <input type="text" class="campo-comprido" maxlength="50" required>
+            </div>
+            <div class="input-group col-100">
+                <label>Estado</label>
+                <select class="campo-comprido">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+            </div>
+
+            <div class="buttons-bar col-100">
+                <button><i class="material-icons">add_circle</i>
+                    <span>Incluir</button>
+                <button>
+                    <i class="material-icons">save</i>
+                    <span>Salvar</span>
+                </button>
+                <button>
+                    <i class="material-icons">remove_circle</i>
+                    <span>Excluir</span>
+                </button>
+                </button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function init() {
+            $(":input").inputmask();
+        };
+        init();
+    </script>
+</body>
+
+</html>

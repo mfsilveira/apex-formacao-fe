@@ -1,0 +1,125 @@
+form {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 26px;
+    color: #9b9b9b;
+    text-align: center;
+    margin: 5px 0px 0px 2px;
+}
+
+h4 {
+    font-family: "Open Sans";
+    border-bottom: solid 1px #ccc;
+    margin: 5px 0px 0px 2px;
+    color: #9b9b9b;
+}
+
+.col-50 {
+    width: 40%;
+}
+
+.col-33 {
+    width: 27%;
+}
+
+.col-25 {
+    width: 20%;
+}
+
+.col-20 {
+    width: 16%;
+}
+
+.col-100 {
+    width: 100%
+}
+
+.input-group {
+    display: flex;
+    margin: 5px 0px;
+    flex-direction: column;
+}
+
+label, input, select {
+    font-family: "Open Sans";
+}
+
+input, select {
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+input {
+    height: 25px;
+}
+
+select {
+    height: 35px;
+}
+
+.margin-sub {
+    margin-left: 10px;
+}
+
+.campo-comprido {
+    width: 270px;
+}
+
+.campo-curto {
+    width: 80px;
+}
+
+.input-group label {
+    font-size: 14px;
+}
+
+.buttons-bar {
+    border-top: solid 1px #ccc;
+    display: flex;
+    margin: 5px 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    height: 40px;
+    width: 140px;
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.1);
+    color: green;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+
+button span {
+    margin-left: 5px;
+}
+
+.imagem-salvar {
+    background-image: url('save.png');
+    background-repeat: no-repeat;
+}

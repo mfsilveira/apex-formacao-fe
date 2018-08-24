@@ -1,12 +1,3 @@
-$font-family: "Open Sans";
-$button-background-color: rgba(128, 128, 128, 0.1);
-$border-color: #ccc;
-$button-border-color: green;
-$button-text-color: green;
-$default-text-color: #9b9b9b;
-$default-border-style: solid;
-$default-border-width: 1px;
-
 body {
 
     form {
@@ -41,27 +32,7 @@ body {
         margin: 5px 0px 0px 2px;
         color: $default-text-color;
     }
-    
-    .col-50 {
-        width: 40%;
-    }
-    
-    .col-33 {
-        width: 27%;
-    }
-    
-    .col-25 {
-        width: 20%;
-    }
-    
-    .col-20 {
-        width: 16%;
-    }
-    
-    .col-100 {
-        width: 100%
-    }
-    
+        
     .input-group {
         display: flex;
         margin: 5px 0px;

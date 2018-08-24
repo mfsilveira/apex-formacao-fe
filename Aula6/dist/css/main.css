@@ -1,0 +1,99 @@
+body form {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+body .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+
+body h1 {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 26px;
+  color: #9b9b9b;
+  text-align: center;
+  margin: 5px 0px 0px 2px; }
+
+body h4 {
+  font-family: "Open Sans";
+  border-bottom: solid 1px #ccc;
+  margin: 5px 0px 0px 2px;
+  color: #9b9b9b; }
+
+body .col-50 {
+  width: 40%; }
+
+body .col-33 {
+  width: 27%; }
+
+body .col-25 {
+  width: 20%; }
+
+body .col-20 {
+  width: 16%; }
+
+body .col-100 {
+  width: 100%; }
+
+body .input-group {
+  display: flex;
+  margin: 5px 0px;
+  flex-direction: column; }
+
+body label, body input, body select {
+  font-family: "Open Sans"; }
+
+body input, body select {
+  border-radius: 5px;
+  border: solid 1px #ccc; }
+
+body input {
+  height: 25px; }
+
+body select {
+  height: 35px; }
+
+body .margin-sub {
+  margin-left: 10px; }
+
+body .campo-comprido {
+  width: 270px; }
+
+body .campo-curto {
+  width: 80px; }
+
+body .input-group label {
+  font-size: 14px; }
+
+body .buttons-bar {
+  border-top: solid 1px #ccc;
+  display: flex;
+  margin: 5px 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+body button {
+  margin: 5px;
+  height: 40px;
+  width: 140px;
+  border: 1px solid green;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.1);
+  color: green;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans"; }
+
+body button span {
+  margin-left: 5px; }

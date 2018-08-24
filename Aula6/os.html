@@ -17,62 +17,68 @@
     <h1>Ordem de Serviços</h1>
     <div class="content">
         <form>
-            <div class="input-group col-75">
-                <label>Cliente</label>
-                <input placeholder="Nome do Cliente" class="campo-bem-comprido">
+            <div class="cabecalho">
+                <div class="input-group col-75">
+                    <label>Cliente</label>
+                    <input placeholder="Nome do Cliente" class="campo-bem-comprido">
+                </div>
+                <div class="input-group col-25">
+                    <label>Placa</label>
+                    <input type="text" class="campo-codigo-item" data-inputmask="'mask' : 'AAA-9999'" minlength="8" maxlength="8" required>
+                </div>
             </div>
-            <div class="input-group col-25">
-                <label>Placa</label>
-                <input type="text" class="campo-curto" data-inputmask="'mask' : 'AAA-9999'" minlength="8" maxlength="8" required>
+            <div class="itens">
+                <div class="input-group col-25">
+                    <label>Código Item</label>
+                </div>
+                <div class="input-group col-50">
+                    <label>Descrição</label>
+                </div>
+                <div class="input-group col-25">
+                    <label>Valor</label>
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-codigo-item">
+                </div>
+                <div class="input-group col-50">
+                    <input type="text" class="campo-descricao">
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-valor-item">
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-codigo-item">
+                </div>
+                <div class="input-group col-50">
+                    <input type="text" class="campo-descricao">
+                </div>
+                <div class="input-group col-25 campo-25">
+                    <input type="number" class="campo-valor-item">
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-codigo-item">
+                </div>
+                <div class="input-group col-50">
+                    <input type="text" class="campo-descricao">
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-valor-item">
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-codigo-item">
+                </div>
+                <div class="input-group col-50">
+                    <input type="text" class="campo-descricao">
+                </div>
+                <div class="input-group col-25">
+                    <input type="number" class="campo-valor-item">
+                </div>
             </div>
-            <div class="input-group col-25">
-                <label>Código Item</label>
-            </div>
-            <div class="input-group col-50">
-                <label>Descrição</label>
-            </div>
-            <div class="input-group col-25">
-                <label>Valor</label>
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-codigo-item">
-            </div>
-            <div class="input-group col-50">
-                <input type="text">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-valor-item">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-codigo-item">
-            </div>
-            <div class="input-group col-50">
-                <input type="text">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-valor-item">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-codigo-item">
-            </div>
-            <div class="input-group col-50">
-                <input type="text">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-valor-item">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-codigo-item">
-            </div>
-            <div class="input-group col-50">
-                <input type="text">
-            </div>
-            <div class="input-group col-25">
-                <input type="number" class="campo-valor-item">
-            </div>
-            <div class="input-group col-100">
-                <label>Valor Total</label>
-                <input type="number" class="campo-valor-item">
+            <div class="rodape">
+                <div class="input-group col-25">
+                    <label>Valor Total</label>
+                    <input type="number" class="campo-valor-item">
+                </div>
             </div>
         </form>
     </div>

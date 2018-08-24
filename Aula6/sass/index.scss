@@ -1,14 +1,14 @@
 body {
 
     form {
-        width: 80%;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+  
     .content {
         display: flex;
         justify-content: center;
@@ -65,7 +65,7 @@ body {
     }
     
     .campo-curto {
-        width: 80px;
+        width: 130px;
     }
     
     .input-group label {

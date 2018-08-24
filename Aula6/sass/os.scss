@@ -1,11 +1,46 @@
 .campo-bem-comprido {
-    width: 450px;
+    width: 100%;
+}
+
+.campo-descricao {
+    width: 100%;
 }
 
 .campo-codigo-item {
-    width: 130px;
+    width: 100%;
 }
 
 .campo-valor-item {
-    width: 130px;
+    width: 100%;
+    text-align: right;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px;
 }

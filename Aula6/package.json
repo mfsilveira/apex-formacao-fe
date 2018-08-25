@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "angular": "^1.7.2",
     "node-sass": "^4.9.3",
     "nodemon": "^1.18.3"
-  }
+  },
+  "dependencies": {}
 }

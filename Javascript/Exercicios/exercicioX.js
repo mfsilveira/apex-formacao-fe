@@ -10,9 +10,9 @@ class Carta {
     }
 }
 
-let carta1 = new Carta("A","paus");
-let carta2 = new Carta("10","copas");
-let carta3 = new Carta("7","ouro");
+let carta1 = new Carta("A", "paus");
+let carta2 = new Carta("10", "copas");
+let carta3 = new Carta("7", "ouro");
 
 carta1.show();
 carta2.show();

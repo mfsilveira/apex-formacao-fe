@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col m8 offset-m1">
+            <input type="text" placeholder="tarefa" ng-model="name">
+        </div>
+        <div class="col m2 offset-m1">
+            <button class="btn" ng-click="addTask(name)">
+                <i class="material-icons">
+                    add_circle_outline
+                </i>
+            </button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col offset-m1">Tarefas</div>
+    </div>
+
+    <div class="row" ng-repeat="taskname in tasks">
+        <div class="col m8 offset-m1">
+            <label class="flow-text">{{taskname}}</label>
+        </div>
+        <div class="col m2 offset-m1">
+            <button class="btn" ng-click="removeTask(taskname)">
+                <i class="material-icons">
+                    remove_circle_outline
+                </i>
+            </button>
+        </div>
+    </div>
+</div>

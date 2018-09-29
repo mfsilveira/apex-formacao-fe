@@ -8,10 +8,13 @@
     
     <script src="./node_modules/materialize-css/dist/js/materialize.js"></script>
     <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.css">
+    <link rel="stylesheet" href="app/style.css">
 
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/angular/angular.js"></script>
     <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
 </head>
 <body>
     <ui-view></ui-view>
@@ -24,5 +27,7 @@
     <script src="app/services/user.services.js"></script>
     <script src="app/controllers/home.controller.js"></script>
     <script src="app/controllers/profile.controller.js"></script>
+    <script src="app/filters/myDate.filter.js"></script>
+    <script src="app/controllers/login.controller.js"></script>
 </body>
 </html>

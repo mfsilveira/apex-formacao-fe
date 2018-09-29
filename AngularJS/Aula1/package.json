@@ -11,6 +11,8 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.7",
     "angular": "^1.7.2",
+    "angular-animate": "^1.7.4",
+    "jquery": "^3.3.1",
     "materialize-css": "^1.0.0-rc.2"
   }
 }

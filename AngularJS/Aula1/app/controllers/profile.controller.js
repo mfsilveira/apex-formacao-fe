@@ -3,6 +3,7 @@ angular.module('firstModule')
 
 function profileController($scope, UserService) {
     $scope.carregarUser = carregarUser;
+    $scope.carregarRepos = carregarRepos;
 
     function carregarUser(username) {
         UserService.getUserData(username).then(
@@ -10,7 +11,10 @@ function profileController($scope, UserService) {
                 $scope.user = data;
             }
         );
-        UserService.getUserData(username + '/repos').then(
+    }
+
+    function carregarRepos(username) {
+        UserService.getUserRepos(username + '/repos').then(
             function (data) {
                 $scope.repos = data;
             }

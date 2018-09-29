@@ -1,0 +1,15 @@
+.ng-enter,
+.ng-leave,
+.ng-move {
+  transition: 0.6s linear all;
+}
+
+.ng-enter-active, .ng-move-active {
+    height: 50px;
+    opacity: 1;
+}
+
+.ng-leave {
+    opacity: 0;
+    overflow: hidden;
+}
